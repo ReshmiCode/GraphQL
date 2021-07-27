@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "graphql-subscriptions": "^1.2.1"
+  }
+}
