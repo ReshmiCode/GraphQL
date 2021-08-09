@@ -1,11 +1,10 @@
 import React from 'react';
+import { useChatMessages } from './hooks';
 import MessageInput from './MessageInput';
 import MessageList from './MessageList';
-import { useChatMessages } from './hooks';
 
 const Chat = ({ user }) => {
   const { messages, addMessage } = useChatMessages();
-
   return (
     <section className="section">
       <div className="container">
